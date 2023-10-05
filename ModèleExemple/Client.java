@@ -9,6 +9,9 @@ public class client {
 
         produitA = produitFactory.getProduitA(produitFactory.TYPE_PRODUIT_A2);
         produitA.methodA();
+
+        produitA = produitFactory.getProduitA(3);
+        produitA.methodA();
         
     }
 }
