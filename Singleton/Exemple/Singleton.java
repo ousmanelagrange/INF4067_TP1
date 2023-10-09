@@ -1,4 +1,4 @@
-package Singleton;
+package Singleton.Exemple;
 
 public final class Singleton {
    

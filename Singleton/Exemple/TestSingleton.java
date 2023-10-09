@@ -1,4 +1,5 @@
 package Singleton.Exemple;
+
 public class TestSingleton {
     public static void main(String [] args) {
         int somme = Singleton.getInstance().somme(2,5);
