@@ -5,7 +5,7 @@ public class Client {
         ProduitFactory produitFactory2 = new ProduitFactory2();
         ProduitFactory produitFactory3 = new ProduitFactory3();
 
-
+        System.out.println("\nExécution de la deuxième méthode.\n");
         ProduitA produitA = null;
         System.out.println("Utilisation de la première fabrique ...");
         produitA = produitFactory1.getProduitA();
