@@ -1,5 +1,6 @@
 package Singleton.Exemple;
 
+
 public final class Singleton {
    
     private static Singleton instance = null;
@@ -60,7 +61,7 @@ public final class Singleton {
      * @throws CloneNotSupportedException
      */
     @Override
-    public Object clon() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {
         throw new CloneNotSupportedException();
     }
 
