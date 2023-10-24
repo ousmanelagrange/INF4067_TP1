@@ -32,7 +32,13 @@ I. Patron de construction
      de fournir une interface unique pour instancier des objets d'une même famille sans avoir à connaitre les classes à instancier.
      On l'utilise lorsque le système est indépendant des objets qu'il utilise et est capable de créer des objets d'une même famille.
       
-       
+
+  
+  4. Builder
+     Il s'agit de créer des objets complexes en combinant différentes parties ou objets sources. Ces parties doivent généralement être créées dans un ordre spécifique ou en suivant un algorithme défini. En pratique, cela implique l'assemblage de plusieurs objets pour les fusionner en un seul. L'objectif principal est de masquer la complexité de la construction d'objets complexes, de sorte qu'un utilisateur puisse créer ces objets sans avoir à se soucier des différentes étapes nécessaires. Chaque objet source contribue à la construction d'une partie de l'objet complexe, également appelé objet cible.
+     Dans l'exercice implémenté dans le code contenu dans le répertoire Builer, il est dans un premier temps question
+     de reproduire l'exemple du cours (code + model), ensuite faire un  
+     
      
       
  
